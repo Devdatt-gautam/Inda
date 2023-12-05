@@ -5,13 +5,13 @@ import img4 from "../assets/home-bg4.png";
 import { useEffect, useState } from "react";
 const Hero = () => {
   const [value, setValue] = useState(0);
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setValue((value + 1) % 4);
-      console.log(value);
-    }, 10000);
-    return () => clearTimeout(timer);
-  }, [value]);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setValue((value + 1) % 4);
+  //     console.log(value);
+  //   }, 10000);
+  //   return () => clearTimeout(timer);
+  // }, [value]);
 
   if (value === 0) {
     return (
@@ -19,7 +19,7 @@ const Hero = () => {
         <h3
           className="text-[3.5rem] md:w-[40%] max-sm:text-[2rem]
           max-lg:text-[2.75rem]
-           max-md:mx-2"
+           max-md:mx-2 2xl:text-[6.25rem]"
         >
           Inclusive care for children with{" "}
           <span className="text-[#DA8A43]">special needs</span>
@@ -39,7 +39,7 @@ const Hero = () => {
         <h3
           className="text-[3.5rem] md:w-[40%] max-sm:text-[2rem]
           max-lg:text-[2.75rem]
-           max-md:mx-2"
+           max-md:mx-2 2xl:text-[6.25rem]"
         >
           Mobilizing strategic and new flows of
           <span className="text-[#88B607]"> Impact Investment</span>
@@ -59,7 +59,7 @@ const Hero = () => {
         <h3
           className="text-[3.5rem] md:w-[40%] max-sm:text-[2rem]
           max-lg:text-[2.75rem]
-           max-md:mx-2"
+           max-md:mx-2 2xl:text-[6.25rem]"
         >
           Solving the world&apos;s{" "}
           <span className="text-[#830598]">biggest problems</span>
@@ -79,7 +79,7 @@ const Hero = () => {
         <h3
           className="text-[3.5rem] md:w-[40%] max-sm:text-[2rem]
           max-lg:text-[2.75rem]
-           max-md:mx-2"
+           max-md:mx-2 2xl:text-[6.25rem]"
         >
           Supporting entrepreneurs as the engine to{" "}
           <span className="text-[#234115]">reduce poverty</span>

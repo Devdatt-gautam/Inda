@@ -13,7 +13,8 @@ nav {
   animation: animate 300ms ease-in-out;
 }
 .blue-bg {
-  background: url(./assets/homeBackground.png);
+  background: url(./assets/homeBackground.png) no-repeat center;
+  background-size: cover;
 }
 
 @keyframes animate {
