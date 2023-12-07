@@ -5,6 +5,7 @@ import About from "../components/About";
 import img from "../assets/about-img-1.png";
 import Do from "../components/Do";
 import spiral from "../assets/top-spiral.svg";
+import Beleive from "../components/Beleive";
 const HomePage = () => {
   return (
     <>
@@ -18,7 +19,7 @@ const HomePage = () => {
       </section>
 
       {/* about section */}
-      <section className="flex max-lg:flex-col lg:py-20 items-center justify-center px-10 lg:px-16 py-8 2xl:px-24">
+      <section className="flex max-lg:flex-col lg:py-20 items-center justify-center px-10 lg:px-16 py-8 2xl:px-24 max-w-[1800px] mx-auto">
         <About img={img} />
       </section>
 
@@ -30,6 +31,11 @@ const HomePage = () => {
           className="absolute top-[-2px] right-0 left-0 w-full"
         />
         <Do />
+      </section>
+
+      {/* what we beleive  */}
+      <section className="px-10 lg:px-16  2xl:px-24   bg-[#88A6F224]">
+        <Beleive />
       </section>
     </>
   );
