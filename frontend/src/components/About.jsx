@@ -6,9 +6,9 @@ const About = ({ img }) => {
       <div className=" flex-1 ">
         <div className="">
           <h5 className="uppercase font-roboto text-[#1D2130] font-bold text-2xl max-sm:text-sm md:text-2xl flex gap-8 items-center 2xl:text-4xl">
-            <div className="w-28 h-1 bg-[#1D2130]"></div>Who we are
+            <div className="w-28 max-sm:w-11 h-1 bg-[#1D2130]"></div>Who we are
           </h5>
-          <h2 className="uppercase text-[#D62C2C] text-[2.4rem]  max-sm:text-xs font-bold md:my-8 my-2 2xl:text-[4.8rem] max-md:text-center">
+          <h2 className="uppercase text-[#D62C2C] text-[2.4rem]  max-sm:text-sm font-bold md:my-8 my-2 2xl:text-[4.8rem] max-md:text-center">
             About
           </h2>
         </div>
