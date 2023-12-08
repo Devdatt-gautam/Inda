@@ -6,6 +6,7 @@ import img from "../assets/about-img-1.png";
 import Do from "../components/Do";
 import spiral from "../assets/top-spiral.svg";
 import Beleive from "../components/Beleive";
+import Project from "../components/Project";
 const HomePage = () => {
   return (
     <>
@@ -34,8 +35,13 @@ const HomePage = () => {
       </section>
 
       {/* what we beleive  */}
-      <section className="px-10 lg:px-16  2xl:px-24   bg-[#88A6F224]">
+      <section className="px-10 lg:px-16  2xl:px-24 pb-8 lg:pb-16 bg-[#88A6F224]">
         <Beleive />
+      </section>
+
+      {/* projects */}
+      <section className="px-10 lg:px-16  2xl:px-24 py-8 lg:py-16">
+        <Project />
       </section>
     </>
   );

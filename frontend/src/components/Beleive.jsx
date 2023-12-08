@@ -25,7 +25,7 @@ const Beleive = () => {
         </div>
       </div>
       {/* heading description image */}
-      <div className="flex flex-col justify-center gap-4 md:flex-row md:justify-between items-start  lg:my-12 my-8">
+      <div className="flex flex-col justify-center gap-4 md:flex-row md:justify-between items-center  lg:my-12 my-8">
         <div className="flex flex-col gap-4 flex-[2] ">
           <h3 className="text-[#D62C2C] font-semibold text-lg max-md:text-center mb-2 leading-6 md:text-2xl uppercase tracking-widest flex items-center gap-4 2xl:text-3xl">
             <div className="w-3 h-3 bg-[#D62C2C] rounded-full "></div>
