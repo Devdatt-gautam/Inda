@@ -7,6 +7,7 @@ import Do from "../components/Do";
 import spiral from "../assets/top-spiral.svg";
 import Beleive from "../components/Beleive";
 import Project from "../components/Project";
+import Founders from "../components/Founders";
 const HomePage = () => {
   return (
     <>
@@ -42,6 +43,12 @@ const HomePage = () => {
       {/* projects */}
       <section className="px-10 lg:px-16  2xl:px-24 py-8 lg:py-16">
         <Project />
+      </section>
+
+      {/* our founders */}
+
+      <section className="px-10 lg:px-16  2xl:px-24 py-8 lg:py-16 bg-[#DCE79C3D]">
+        <Founders />
       </section>
     </>
   );
